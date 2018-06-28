@@ -1,0 +1,8 @@
+.idea
+build
+node_modules
+package-lock.json
+
+**/*.log
+**/*.js.map
+**/*.d.ts

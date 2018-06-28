@@ -1,0 +1,24 @@
+{
+  "name": "github-issue-new",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build/index.js",
+  "scripts": {
+    "start": "tsc && node --prof build/index.js",
+    "insert": "tsc && node build/insert.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "pg": "^7.4.1",
+    "reflect-metadata": "^0.1.12",
+    "typeorm": "^0.2.6"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "ts-node": "4.1.0",
+    "typescript": "^2.8.1",
+    "typescript-eslint-parser": "^14.0.0"
+  }
+}
